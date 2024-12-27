@@ -17,10 +17,7 @@ app.use(cors())
 app.use('/api/v1' , todoRoutes)
 
 
-app.get('/', (req, res) => {
-    console.log(process.env.MONGO_URI);
-  res.send('Hello World!')
-})
+
 
 
 
